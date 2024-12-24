@@ -118,9 +118,7 @@ export default defineConfig({
   },
 
   vite: {
-    ssr: {
-      noExternal: ["node:path"],
-    },
+
     build: {
       rollupOptions: {
         onwarn(warning, warn) {
